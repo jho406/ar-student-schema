@@ -19,6 +19,5 @@ class Student < ActiveRecord::Base
     phone.gsub(/\D/, '')
   end
 
-#validates :age, :numericality => true, :on => :update
-#validates :email, :uniqueness => true, :on => :create
+
 end
